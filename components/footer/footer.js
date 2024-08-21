@@ -77,20 +77,18 @@ const FooterContent = `
       3. Сохранить проект.
     </p>
 
+    
     <p class="paragraph">
-        Your project is going to be safely hosted on GitHub - a space for code repositories online.
-    </p>
-    <p class="paragraph">
-    If you would like to save your project locally, you can also download the package containing the generated code and all supporting files.
+   Если вы хотите разместить свой проект на другом сервере или в другой сети, вы можете скачать проект, содержащий сгенерированный код и все вспомогательные файлы.
     </p>
 
     <div class="buttons">
       <button id="github-publish" disabled class="primary-button publish-disabled">
-        Publish on Github
+        Сохранить
       </button>
 
       <button id="zip-publish" disabled class="passive-button publish-disabled">
-        Download package
+        Скачать проект
       </button>
     </div>
     </div>
