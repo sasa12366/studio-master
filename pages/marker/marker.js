@@ -86,7 +86,7 @@ const zip = () => {
 const publish = () => {
     // TODO: replace alerts with HTML error messages.
 
-    if (!window.markerImage) return alert('Please, select a marker image.');
+   /* if (!window.markerImage) return alert('Please, select a marker image.');
     if (!window.assetType) return alert('Please, select the correct content type.');
     if (!window.assetFile || !window.assetName) return alert('Please, upload a content.');
 
@@ -104,7 +104,7 @@ const publish = () => {
             });
             window.location = '../publish';
         }
-        )
+        )*/
 }
 
 zipButton.addEventListener('click', zip);
